@@ -3,7 +3,7 @@
    Minimalist, professional styling
    ============================================================ */
 
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&family=Inter:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Cormorant+Garamond:wght@300;400;500;600&family=Inter:wght@300;400;500&display=swap');
 
 :root {
   --bg: #faf9f6;
@@ -173,7 +173,7 @@ h1, h2, h3, h4 {
 /* ---------------- Hero ---------------- */
 
 .hero {
-  min-height: 88vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -183,17 +183,19 @@ h1, h2, h3, h4 {
 }
 
 .hero-name {
-  font-size: clamp(56px, 11vw, 132px);
-  line-height: 1;
-  font-weight: 500;
-  letter-spacing: 0.01em;
+  font-family: 'Anton', 'Cormorant Garamond', sans-serif;
+  font-size: clamp(84px, 17vw, 220px);
+  line-height: 0.92;
+  font-weight: 400;
+  letter-spacing: 0.005em;
+  text-transform: uppercase;
 }
 
 .hero-divider {
   width: 48px;
   height: 1px;
   background: var(--line);
-  margin: 28px auto 24px;
+  margin: 36px auto 28px;
 }
 
 .hero-subtitle {
