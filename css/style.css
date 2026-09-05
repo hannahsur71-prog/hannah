@@ -349,6 +349,24 @@ section {
   max-width: 640px;
 }
 
+.subcategory {
+  margin-top: 36px;
+}
+
+.subcategory + .subcategory {
+  border-top: 1px solid var(--line);
+  padding-top: 36px;
+}
+
+.subcategory-title {
+  font-size: clamp(20px, 2.2vw, 24px);
+  margin-bottom: 10px;
+}
+
+.subcategory .category-desc {
+  margin-bottom: 20px;
+}
+
 /* ---------------- Photography grid ---------------- */
 
 .grid {
