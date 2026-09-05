@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1100" viewBox="0 0 900 1100">
+  <rect width="900" height="1100" fill="#e9e7e2"/>
+  <rect x="0.5" y="0.5" width="899" height="1099" fill="none" stroke="#cfcbc2" stroke-width="1"/>
+  <line x1="0" y1="0" x2="900" y2="1100" stroke="#d8d4cb" stroke-width="1"/>
+  <line x1="900" y1="0" x2="0" y2="1100" stroke="#d8d4cb" stroke-width="1"/>
+  <text x="450.0" y="544.0" font-family="Helvetica, Arial, sans-serif" font-size="28" letter-spacing="2" fill="#8a8578" text-anchor="middle">PORTRAIT</text>
+  <text x="450.0" y="566.0" font-family="Helvetica, Arial, sans-serif" font-size="19" letter-spacing="1" fill="#a8a396" text-anchor="middle">REPLACE WITH PHOTO OF ISABELLE</text>
+</svg>
