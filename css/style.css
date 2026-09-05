@@ -481,7 +481,7 @@ section {
   grid-template-columns: 1fr 1fr;
   gap: 48px;
   align-items: center;
-  padding: 40px 0;
+  padding: 48px 0 72px;
   border-bottom: 1px solid var(--line);
 }
 
@@ -509,27 +509,6 @@ section {
 
 .film-entry:hover .film-media img {
   transform: scale(1.03);
-}
-
-.film-play {
-  position: absolute;
-  inset: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.film-play span {
-  width: 56px;
-  height: 56px;
-  border: 1px solid #fff;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #fff;
-  font-size: 12px;
-  letter-spacing: 0.1em;
 }
 
 .film-meta .eyebrow {
