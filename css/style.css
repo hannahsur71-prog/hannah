@@ -3,7 +3,7 @@
    Minimalist, professional styling
    ============================================================ */
 
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Cormorant+Garamond:wght@300;400;500;600&family=Inter:wght@300;400;500&family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Cormorant+Garamond:wght@300;400;500;600&family=Inter:wght@300;400;500&display=swap');
 
 :root {
   --bg: #faf9f6;
@@ -607,9 +607,10 @@ section {
 .about-copy p {
   margin-bottom: 20px;
   color: var(--ink-soft);
-  font-family: 'Sacramento', cursive;
-  font-size: 28px;
-  line-height: 1.5;
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 1.6;
   max-width: 580px;
 }
 
