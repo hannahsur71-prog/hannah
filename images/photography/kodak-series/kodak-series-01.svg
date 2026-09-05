@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1000" viewBox="0 0 800 1000">
+  <rect width="800" height="1000" fill="#e9e7e2"/>
+  <rect x="0.5" y="0.5" width="799" height="999" fill="none" stroke="#cfcbc2" stroke-width="1"/>
+  <line x1="0" y1="0" x2="800" y2="1000" stroke="#d8d4cb" stroke-width="1"/>
+  <line x1="800" y1="0" x2="0" y2="1000" stroke="#d8d4cb" stroke-width="1"/>
+  <text x="400.0" y="494.0" font-family="Helvetica, Arial, sans-serif" font-size="25" letter-spacing="2" fill="#8a8578" text-anchor="middle">Kodak Series 1</text>
+  <text x="400.0" y="516.0" font-family="Helvetica, Arial, sans-serif" font-size="17" letter-spacing="1" fill="#a8a396" text-anchor="middle">REPLACE WITH PHOTO</text>
+</svg>

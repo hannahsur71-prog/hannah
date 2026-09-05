@@ -46,18 +46,19 @@ document.addEventListener('DOMContentLoaded', () => {
     revealEls.forEach((el) => el.classList.add('is-visible'));
   }
 
-  // Lightbox for photography grid
-  const grid = document.querySelector('[data-lightbox-group]');
-  if (grid) {
-    const items = Array.from(grid.querySelectorAll('.grid-item'));
+  // Lightbox — supports multiple independent groups (e.g. one per photography category)
+  const groups = document.querySelectorAll('[data-lightbox-group]');
+  if (groups.length) {
     const lightbox = document.querySelector('.lightbox');
     const lightboxImg = lightbox.querySelector('img');
     const lightboxCaption = lightbox.querySelector('.lightbox-caption');
+    let activeItems = [];
     let currentIndex = 0;
 
-    const openLightbox = (index) => {
+    const openLightbox = (items, index) => {
+      activeItems = items;
       currentIndex = index;
-      const item = items[currentIndex];
+      const item = activeItems[currentIndex];
       lightboxImg.src = item.dataset.full || item.querySelector('img').src;
       lightboxImg.alt = item.dataset.caption || '';
       lightboxCaption.textContent = item.dataset.caption || '';
@@ -71,12 +72,16 @@ document.addEventListener('DOMContentLoaded', () => {
     };
 
     const step = (delta) => {
-      currentIndex = (currentIndex + delta + items.length) % items.length;
-      openLightbox(currentIndex);
+      if (!activeItems.length) return;
+      currentIndex = (currentIndex + delta + activeItems.length) % activeItems.length;
+      openLightbox(activeItems, currentIndex);
     };
 
-    items.forEach((item, index) => {
-      item.addEventListener('click', () => openLightbox(index));
+    groups.forEach((grid) => {
+      const items = Array.from(grid.querySelectorAll('.grid-item'));
+      items.forEach((item, index) => {
+        item.addEventListener('click', () => openLightbox(items, index));
+      });
     });
 
     lightbox.querySelector('.lightbox-close').addEventListener('click', closeLightbox);
