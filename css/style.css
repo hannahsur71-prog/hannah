@@ -586,13 +586,6 @@ section {
   max-width: 580px;
 }
 
-.about-copy p:first-of-type {
-  color: var(--ink);
-  font-size: 21px;
-  font-family: 'Cormorant Garamond', serif;
-  font-weight: 400;
-}
-
 .about-info {
   margin-top: 36px;
   padding-top: 28px;
