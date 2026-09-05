@@ -495,19 +495,36 @@ section {
 }
 
 .film-meta .eyebrow {
-  margin-bottom: 14px;
+  margin-bottom: 10px;
   display: block;
 }
 
 .film-meta h3 {
   font-size: 32px;
-  margin-bottom: 14px;
+  margin-bottom: 8px;
+}
+
+.film-credit {
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  color: var(--accent);
+  margin-bottom: 16px;
 }
 
 .film-meta p {
   color: var(--ink-soft);
   font-size: 16px;
   max-width: 440px;
+}
+
+.film-watch-link {
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 13px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  border-bottom: 1px solid var(--ink);
+  padding-bottom: 3px;
 }
 
 .film-meta .film-tags {
