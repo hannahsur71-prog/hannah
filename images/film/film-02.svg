@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
-  <rect width="1280" height="720" fill="#e9e7e2"/>
-  <rect x="0.5" y="0.5" width="1279" height="719" fill="none" stroke="#cfcbc2" stroke-width="1"/>
-  <line x1="0" y1="0" x2="1280" y2="720" stroke="#d8d4cb" stroke-width="1"/>
-  <line x1="1280" y1="0" x2="0" y2="720" stroke="#d8d4cb" stroke-width="1"/>
-  <text x="640.0" y="354.0" font-family="Helvetica, Arial, sans-serif" font-size="40" letter-spacing="2" fill="#8a8578" text-anchor="middle">Short Film II</text>
-  <text x="640.0" y="376.0" font-family="Helvetica, Arial, sans-serif" font-size="28" letter-spacing="1" fill="#a8a396" text-anchor="middle">REPLACE WITH STILL / THUMBNAIL</text>
-</svg>
